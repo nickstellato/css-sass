@@ -353,28 +353,36 @@ td,
 th {
   padding: 0; }
 
-/*  ---------------------
-    Universal Styles
------------------------- */
 * {
   box-sizing: border-box; }
+
+body {
+  background-color: beige; }
+
+a {
+  text-decoration: none;
+  color: black; }
+
+h2 {
+  text-align: center;
+  padding-top: 1.5em;
+  padding-bottom: 1.5em;
+  text-transform: uppercase;
+  font-size: 1.1em; }
+
+figure {
+  padding-left: 0;
+  margin: 0; }
 
 /*  ---------------------
     Main Styles
 ------------------------ */
-body {
-  background-color: beige; }
-
 .portfolio-wrapper {
   background-color: white;
   width: 95%;
   margin: 0 auto;
   padding-top: 2em;
   padding-bottom: 3em; }
-
-a {
-  text-decoration: none;
-  color: black; }
 
 .main-header {
   padding-bottom: 2em;
@@ -436,17 +444,6 @@ a {
   line-height: 1.4;
   width: 100%;
   margin-top: 2em; }
-
-h2 {
-  text-align: center;
-  padding-top: 1.5em;
-  padding-bottom: 1.5em;
-  text-transform: uppercase;
-  font-size: 1.1em; }
-
-figure {
-  padding-left: 0;
-  margin: 0; }
 
 .portfolio-piece {
   padding-top: 1em; }
