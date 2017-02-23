@@ -374,9 +374,10 @@ figure {
   padding-left: 0;
   margin: 0; }
 
-/*  ---------------------
-    Main Styles
------------------------- */
+.wrapper {
+  width: 90%;
+  margin: 0 auto; }
+
 .portfolio-wrapper {
   background-color: white;
   width: 95%;
@@ -384,10 +385,9 @@ figure {
   padding-top: 2em;
   padding-bottom: 3em; }
 
-.main-header {
-  padding-bottom: 2em;
-  margin-bottom: 2em; }
-
+/*  ---------------------
+    Main Styles
+------------------------ */
 .main-header,
 .main-nav,
 .site-header,
@@ -466,49 +466,20 @@ figure {
   width: 100%;
   box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.6); }
 
+.main-footer p {
+  line-height: 1.6; }
+
 .contact {
   padding-top: 2em;
   padding-bottom: 1em; }
 
-.main-footer {
-  text-align: center; }
-
-.footer-info {
-  padding-bottom: 1em; }
-
-.main-footer p {
-  line-height: 1.6; }
-
-.site-footer {
-  font-weight: 800;
-  border-top: 1px solid lightgrey;
-  padding-top: 1em;
-  padding-bottom: 4em; }
-
-.footer-logo {
-  float: left; }
-
-.footer-links {
-  float: right; }
-
-.footer-nav {
-  display: none; }
-
 /*  ---------------------
     Layout Styles
 ------------------------ */
-.wrapper {
-  width: 90%;
-  margin: 0 auto; }
-
 .clearfix::after {
   content: "";
   display: table;
   clear: both; }
-
-.call-out {
-  font-weight: 800;
-  padding-left: 1em; }
 
 /*  ---------------------
     Media Queries
@@ -628,5 +599,33 @@ figure {
 
   .contact-info p {
     padding-bottom: 1em; } }
+.footer-logo {
+  float: left; }
+
+.footer-links {
+  float: right; }
+
+.call-out {
+  font-weight: 800;
+  padding-left: 1em; }
+
+.site-footer {
+  font-weight: 800;
+  border-top: 1px solid lightgrey;
+  padding-top: 1em;
+  padding-bottom: 4em; }
+
+.main-footer {
+  text-align: center; }
+
+.footer-info {
+  padding-bottom: 1em; }
+
+.footer-nav {
+  display: none; }
+
+.main-header {
+  padding-bottom: 2em;
+  margin-bottom: 2em; }
 
 /*# sourceMappingURL=application.css.map */

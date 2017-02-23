@@ -2,20 +2,6 @@
     Main Styles
 ------------------------ */
 
-.portfolio-wrapper {
-  background-color: white;
-  width: 95%;
-  margin: 0 auto;
-  padding-top: 2em;
-  padding-bottom: 3em;
-}
-
-
-.main-header {
-  padding-bottom: 2em;
-  margin-bottom: 2em;
-}
-
 .main-header,
 .main-nav,
 .site-header,
@@ -107,60 +93,23 @@
   box-shadow: 2px 4px 8px rgba(0,0,0,.6);
 }
 
-.contact {
-  padding-top: 2em;
-  padding-bottom: 1em;
-}
-
-.main-footer {
-  text-align: center;
-}
-
-.footer-info {
-  padding-bottom: 1em;
-}
-
 .main-footer p {
   line-height: 1.6;
 }
 
-.site-footer {
-  font-weight: 800;
-  border-top: 1px solid lightgrey;
-  padding-top: 1em;
-  padding-bottom: 4em;
-}
-
-.footer-logo {
-  float: left;
-}
-
-.footer-links {
-  float: right;
-}
-
-.footer-nav {
-  display: none;
+.contact {
+  padding-top: 2em;
+  padding-bottom: 1em;
 }
 
 /*  ---------------------
     Layout Styles
 ------------------------ */
 
-.wrapper {
-  width: 90%;
-  margin: 0 auto;
-}
-
 .clearfix::after {
 	content: "";
 	display: table;
 	clear: both;
-}
-
-.call-out {
-  font-weight: 800;
-  padding-left: 1em;
 }
 
 /*  ---------------------
