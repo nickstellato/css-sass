@@ -359,17 +359,6 @@ th {
 body {
   background-color: beige; }
 
-a {
-  text-decoration: none;
-  color: black; }
-
-h2 {
-  text-align: center;
-  padding-top: 1.5em;
-  padding-bottom: 1.5em;
-  text-transform: uppercase;
-  font-size: 1.1em; }
-
 figure {
   padding-left: 0;
   margin: 0; }
@@ -384,11 +373,6 @@ figure {
   margin: 0 auto;
   padding-top: 2em;
   padding-bottom: 3em; }
-
-.clearfix::after {
-  content: "";
-  display: table;
-  clear: both; }
 
 /*  ---------------------
     Media Queries
@@ -571,6 +555,22 @@ figure {
 .main-header {
   padding-bottom: 2em;
   margin-bottom: 2em; }
+
+.main-footer:after {
+  content: "";
+  display: table;
+  clear: both; }
+
+a {
+  text-decoration: none;
+  color: black; }
+
+h2 {
+  text-align: center;
+  padding-top: 1.5em;
+  padding-bottom: 1.5em;
+  text-transform: uppercase;
+  font-size: 1.1em; }
 
 .main-nav,
 .footer-nav {
