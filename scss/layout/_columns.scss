@@ -1,3 +1,15 @@
+.main-header,
+.main-nav,
+.site-header,
+.intro,
+.portfolio {
+  display: flex;
+  flex-direction: column;
+}
+
+.intro {
+  flex-direction: row;
+}
 
 .footer-logo {
   float: left;

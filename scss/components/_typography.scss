@@ -1,0 +1,58 @@
+.main-nav,
+.footer-nav {
+  list-style: none;
+}
+
+.main-nav a {
+  display: block;
+  font-size: .9em;
+  font-weight: 800;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: .5em;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  background-color: white;
+  align-self: center;
+  width: 100%;
+}
+
+.site-logo,
+.main-nav,
+.image-wrapper,
+.intro p {
+  align-self: center;
+}
+
+.intro p {
+  font-size: 1.25em;
+  text-align: center;
+  line-height: 1.4;
+  width: 100%;
+  margin-top: 2em;
+}
+
+.portfolio-piece {
+  padding-top: 1em;
+}
+
+.portfolio-piece h3 {
+  font-weight: 600;
+  font-size: 1.3em;
+}
+
+.portfolio-piece p {
+  font-size: 1.1em;
+  width: 90%;
+  margin: 1em auto;
+}
+
+.portfolio-piece h3,
+.portfolio-piece p {
+  text-align: center;
+  line-height: 1.6;
+}
+
+.main-footer p {
+  line-height: 1.6;
+}

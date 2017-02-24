@@ -1,0 +1,31 @@
+.main-nav {
+  width: 100%;
+  margin: 0 auto;
+  padding-left: 0;
+}
+
+.image-wrapper {
+  width: 80%;
+  margin-top: 3em;
+  margin-right: 2%;
+  background-color: lightgrey;
+  box-shadow: 2px 2px 8px rgba(0,0,0,.4);
+}
+
+.image-wrapper img {
+  display: block;
+  border-radius: 50%;
+  margin: 2em auto;
+  width: 50%;
+  box-shadow: inset 2px 4px 8px rgba(0,0,0,.4);
+}
+
+.portfolio-piece img {
+  width: 100%;
+  box-shadow: 2px 4px 8px rgba(0,0,0,.6);
+}
+
+.contact {
+  padding-top: 2em;
+  padding-bottom: 1em;
+}
