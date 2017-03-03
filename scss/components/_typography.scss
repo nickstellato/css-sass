@@ -1,6 +1,6 @@
 a {
   text-decoration: none;
-  color: black;
+  color: $black;
 }
 
 h2 {
@@ -25,19 +25,19 @@ h2 {
   margin-top: .5em;
   padding-top: 1em;
   padding-bottom: 1em;
-  background-color: white;
+  background-color: $white;
   align-self: center;
   width: 100%;
 }
 
 .site-logo,
 .main-nav,
-.image-wrapper,
-.intro p {
+.image-wrapper {
   align-self: center;
 }
 
 .intro p {
+  align-self: center;
   text-align: center;
   font-size: 1.25em;
   line-height: 1.4;
@@ -47,23 +47,21 @@ h2 {
 
 .portfolio-piece {
   padding-top: 1em;
-}
-
-.portfolio-piece h3 {
-  font-weight: 600;
-  font-size: 1.3em;
-}
-
-.portfolio-piece p {
-  font-size: 1.1em;
-  width: 90%;
-  margin: 1em auto;
-}
-
-.portfolio-piece h3,
-.portfolio-piece p {
-  text-align: center;
-  line-height: 1.6;
+  
+  h3 {
+    font-weight: 600;
+    font-size: 1.3em;
+    text-align: center;
+    line-height: 1.6;
+  }
+  
+  p {
+    font-size: 1.1em;
+    width: 90%;
+    margin: 1em auto;
+    text-align: center;
+    line-height: 1.6;
+  }
 }
 
 .main-footer p {

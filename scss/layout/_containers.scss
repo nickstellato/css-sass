@@ -8,16 +8,16 @@
   width: 80%;
   margin-top: 3em;
   margin-right: 2%;
-  background-color: lightgrey;
+  background-color: $gray-nickel;
   box-shadow: 2px 2px 8px rgba(0,0,0,.4);
-}
 
-.image-wrapper img {
-  display: block;
-  border-radius: 50%;
-  margin: 2em auto;
-  width: 50%;
-  box-shadow: inset 2px 4px 8px rgba(0,0,0,.4);
+    img {
+    display: block;
+    border-radius: 50%;
+    margin: 2em auto;
+    width: 50%;
+    box-shadow: inset 2px 4px 8px rgba(0,0,0,.4);
+  }
 }
 
 .portfolio-piece img {
