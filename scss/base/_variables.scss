@@ -19,3 +19,8 @@ $color-shadow-dark  : lighten($black, 60%);
 
 $stack-sans-serif   : Helvetica, Arial, sans-serif;
 $stack-helvetica    : 'Helvetica Neue', $stack-sans-serif;
+
+// Media query breakpoints
+
+$brk-narrow : '(max-width: 768px)';
+$brk-wide   : '(max-width: 1024px)';
