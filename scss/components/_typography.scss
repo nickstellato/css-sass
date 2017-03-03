@@ -1,6 +1,14 @@
+body {
+  font-family: $stack-helvetica;
+}
+
 a {
   text-decoration: none;
   color: $black;
+}
+
+h1 {
+  padding-bottom: 1em;
 }
 
 h2 {
@@ -16,6 +24,10 @@ h2 {
   list-style: none;
 }
 
+.main-nav {
+  background-color: $sandwisp;
+}
+
 .main-nav a {
   display: block;
   font-size: .9em;
@@ -25,7 +37,6 @@ h2 {
   margin-top: .5em;
   padding-top: 1em;
   padding-bottom: 1em;
-  background-color: $sandwisp;
   align-self: center;
   width: 100%;
 }

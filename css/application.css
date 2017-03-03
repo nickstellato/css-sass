@@ -445,9 +445,15 @@ figure {
   padding-bottom: 2em;
   margin-bottom: 2em; }
 
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; }
+
 a {
   text-decoration: none;
   color: #000; }
+
+h1 {
+  padding-bottom: 1em; }
 
 h2 {
   text-align: center;
@@ -460,6 +466,9 @@ h2 {
 .footer-nav {
   list-style: none; }
 
+.main-nav {
+  background-color: #F5F198; }
+
 .main-nav a {
   display: block;
   font-size: .9em;
@@ -469,7 +478,6 @@ h2 {
   margin-top: .5em;
   padding-top: 1em;
   padding-bottom: 1em;
-  background-color: #F5F198;
   align-self: center;
   width: 100%; }
 
@@ -518,8 +526,7 @@ h2 {
 
   .main-nav a {
     padding-left: 5em;
-    padding-right: 5em;
-    background-color: beige; }
+    padding-right: 5em; }
 
   .image-wrapper {
     order: 1;

@@ -14,3 +14,8 @@ $color-sec          : $gray-nickel;
 $color-text         : $black;
 $color-shadow       : lighten($black, 40%);
 $color-shadow-dark  : lighten($black, 60%);
+
+// Font stacks
+
+$stack-sans-serif   : Helvetica, Arial, sans-serif;
+$stack-helvetica    : 'Helvetica Neue', $stack-sans-serif;
