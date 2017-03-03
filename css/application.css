@@ -410,17 +410,17 @@ figure {
   margin-top: 3em;
   margin-right: 2%;
   background-color: #C3C3BD;
-  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.4); }
+  box-shadow: 2px 2px 8px #666666; }
   .image-wrapper img {
     display: block;
     border-radius: 50%;
     margin: 2em auto;
     width: 50%;
-    box-shadow: inset 2px 4px 8px rgba(0, 0, 0, 0.4); }
+    box-shadow: inset 2px 4px 8px #666666; }
 
 .portfolio-piece img {
   width: 100%;
-  box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.6); }
+  box-shadow: 2px 4px 8px #999999; }
 
 .contact {
   padding-top: 2em;
@@ -469,7 +469,7 @@ h2 {
   margin-top: .5em;
   padding-top: 1em;
   padding-bottom: 1em;
-  background-color: #fff;
+  background-color: #F5F198;
   align-self: center;
   width: 100%; }
 
