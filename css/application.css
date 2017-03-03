@@ -449,9 +449,11 @@ figure {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between; } }
-
 .portfolio-piece {
-  width: 49%; }
+  width: 100%; }
+  @media (min-width: 768px) {
+    .portfolio-piece {
+      width: 49%; } }
   @media (min-width: 1024px) {
     .portfolio-piece {
       width: 32%;

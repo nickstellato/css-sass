@@ -33,25 +33,29 @@
     flex-wrap: wrap;
     justify-content: space-between;
   }
-}
 
-.portfolio-piece {
-  width: 49%;
-
-  @media #{$brk-wide} {
-    width: 32%;
-    padding-bottom: 2em;
-  }
-
-  img {
+  &-piece {
     width: 100%;
-    box-shadow: 2px 4px 8px $color-shadow-dark;
-  }
 
-  p {
+    @media #{$brk-narrow} {
+      width: 49%;
+    }
+
     @media #{$brk-wide} {
-      width: 90%;
-      margin: 0 auto;
+      width: 32%;
+      padding-bottom: 2em;
+    }
+
+    img {
+      width: 100%;
+      box-shadow: 2px 4px 8px $color-shadow-dark;
+    }
+
+    p {
+      @media #{$brk-wide} {
+        width: 90%;
+        margin: 0 auto;
+      }
     }
   }
 }
