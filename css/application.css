@@ -399,11 +399,6 @@ figure {
       flex-direction: row;
       justify-content: space-between; } }
 
-.intro {
-  flex-direction: row;
-  display: flex;
-  flex-direction: column; }
-
 .footer-logo {
   float: left; }
 .footer-links {
