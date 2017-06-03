@@ -29,13 +29,13 @@ h2 {
   margin: 0 auto;
   padding-left: 0;
 
-  @media #{$brk-narrow} {
+  @media $brk-narrow {
     flex-direction: row;
     justify-content: center;
     margin-top: -2em;
   }
 
-  @media #{brk-wide} {
+  @media $brk-wide {
     margin-top: 0;
     justify-content: space-between;
     width: 40%;
@@ -54,12 +54,12 @@ h2 {
     align-self: center;
     width: 100%;
 
-    @media #{$brk-narrow} {
+    @media $brk-narrow {
       padding-left: 5em;
       padding-right: 5em;
     }
 
-    @media #{$brk-wide} {
+    @media $brk-wide {
       padding-left: 0;
       padding-right: 0;
     }
@@ -73,12 +73,12 @@ h2 {
 .site-logo {
   align-self: center;
 
-  @media #{$brk-narrow} {
+  @media $brk-narrow {
     width: 200px;
     padding-top: 1em;
   }
 
-  @media #{$brk-wide} {
+  @media $brk-wide {
     margin-right: auto;
     width: 50%;
   }
@@ -89,7 +89,7 @@ h2 {
   display: flex;
   flex-direction: column;
 
-  @media #{$brk-wide} {
+  @media $brk-wide {
     margin-top: 0;
   }
 
@@ -101,7 +101,7 @@ h2 {
     width: 100%;
     margin-top: 2em;
 
-    @media #{$brk-narrow} {
+    @media $brk-narrow {
       width: 60%;
       text-align: left;
       font-size: 1.2em;
@@ -110,7 +110,7 @@ h2 {
       align-self: flex-start;
     }
 
-    @media #{$brk-wide} {
+    @media $brk-wide {
       width: 55%;
       font-size: 1.5rem;
       line-height: 1.3;

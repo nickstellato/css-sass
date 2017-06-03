@@ -394,7 +394,7 @@ figure {
 .site-header {
   display: flex;
   flex-direction: column; }
-  @media $brk-wide {
+  @media brk-wide {
     .site-header {
       flex-direction: row;
       justify-content: space-between; } }
