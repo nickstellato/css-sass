@@ -6,7 +6,7 @@
   box-shadow: 2px 2px 8px $color-shadow;
   align-self: center;
 
-  @media $brk-narrow {
+  @media #{$brk-narrow} {
     order: 1;
     width: 50%;
     margin-left: 2em;
@@ -14,7 +14,7 @@
     padding-top: .8em;    
   }
 
-  @media $brk-wide {
+  @media #{$brk-wide} {
     width: 40%;
   }
 
@@ -28,7 +28,7 @@
 }
 
 .portfolio {
-  @media $brk-narrow {
+  @media #{$brk-narrow} {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -37,11 +37,11 @@
   &-piece {
     width: 100%;
 
-    @media $brk-narrow {
+    @media #{$brk-narrow} {
       width: 49%;
     }
 
-    @media $brk-wide {
+    @media #{$brk-wide} {
       width: 32%;
       padding-bottom: 2em;
     }
@@ -52,7 +52,7 @@
     }
 
     p {
-      @media $brk-wide {
+      @media #{$brk-wide} {
         width: 90%;
         margin: 0 auto;
       }
@@ -64,20 +64,20 @@
   padding-top: 2em;
   padding-bottom: 1em;
 
-  @media $brk-narrow {
+  @media #{$brk-narrow} {
     width: 70%;
     margin: 0 auto;
     font-size: 1.2em;
   }
 
-  @media $brk-wide {
+  @media #{$brk-wide} {
     margin-top: 2em;
     padding-top: 2em;
     margin-bottom: 6em;
   }
 
   p {
-    @media $brk-wide {
+    @media #{$brk-wide} {
       width: 80%;
       margin: 0 auto;
       font-size: 1.3em;
@@ -86,12 +86,12 @@
   }
 
   &-info {
-    @media $brk-wide {
+    @media #{$brk-wide} {
       margin-top: 2em;
     }
 
     p {
-      @media $brk-wide {
+      @media #{$brk-wide} {
         padding-bottom: 1em;
       }
     } 

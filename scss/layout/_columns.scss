@@ -20,7 +20,7 @@
   display: flex;
   flex-direction: column;
 
-  @media $brk-wide {
+  @media #{$brk-wide} {
     flex-direction: column;
     justify-content: space-between;
   }
@@ -30,7 +30,7 @@
   display: flex;
   flex-direction: column;
 
-  @media $brk-wide {
+  @media #{$brk-wide} {
     flex-direction: row;
     justify-content: space-between;
   }
@@ -46,18 +46,18 @@
   }
 
   &-link {
-    @media $brk-narrow {
+    @media #{$brk-narrow} {
       display: none;
     }
   }
 
   &-nav {
-    @media $brk-narrow {
+    @media #{$brk-narrow} {
       display: inline;
     }
 
     li {
-      @media $brk-narrow {
+      @media #{$brk-narrow} {
         display: inline;
         padding-left: 1.5em;
         text-transform: uppercase;

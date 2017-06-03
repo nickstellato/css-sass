@@ -386,7 +386,7 @@ figure {
 .main-header {
   display: flex;
   flex-direction: column; }
-  @media brk-wide {
+  @media screen and (min-width: 1024px) {
     .main-header {
       flex-direction: column;
       justify-content: space-between; } }
@@ -394,7 +394,7 @@ figure {
 .site-header {
   display: flex;
   flex-direction: column; }
-  @media brk-wide {
+  @media screen and (min-width: 1024px) {
     .site-header {
       flex-direction: row;
       justify-content: space-between; } }
@@ -403,13 +403,13 @@ figure {
   float: left; }
 .footer-links {
   float: right; }
-@media brk-narrow {
+@media screen and (min-width: 768px) {
   .footer-link {
     display: none; } }
-@media brk-narrow {
+@media screen and (min-width: 768px) {
   .footer-nav {
     display: inline; } }
-@media brk-narrow {
+@media screen and (min-width: 768px) {
   .footer-nav li {
     display: inline;
     padding-left: 1.5em;
@@ -427,14 +427,14 @@ figure {
   background-color: #C3C3BD;
   box-shadow: 2px 2px 8px #666666;
   align-self: center; }
-  @media (min-width: 768px) {
+  @media screen and (min-width: 768px) {
     .image-wrapper {
       order: 1;
       width: 50%;
       margin-left: 2em;
       align-self: flex-start;
       padding-top: .8em; } }
-  @media (min-width: 1024px) {
+  @media screen and (min-width: 1024px) {
     .image-wrapper {
       width: 40%; } }
   .image-wrapper img {
@@ -444,24 +444,24 @@ figure {
     width: 50%;
     box-shadow: inset 2px 4px 8px #666666; }
 
-@media (min-width: 768px) {
+@media screen and (min-width: 768px) {
   .portfolio {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between; } }
 .portfolio-piece {
   width: 100%; }
-  @media (min-width: 768px) {
+  @media screen and (min-width: 768px) {
     .portfolio-piece {
       width: 49%; } }
-  @media (min-width: 1024px) {
+  @media screen and (min-width: 1024px) {
     .portfolio-piece {
       width: 32%;
       padding-bottom: 2em; } }
   .portfolio-piece img {
     width: 100%;
     box-shadow: 2px 4px 8px #999999; }
-  @media (min-width: 1024px) {
+  @media screen and (min-width: 1024px) {
     .portfolio-piece p {
       width: 90%;
       margin: 0 auto; } }
@@ -469,26 +469,26 @@ figure {
 .contact {
   padding-top: 2em;
   padding-bottom: 1em; }
-  @media (min-width: 768px) {
+  @media screen and (min-width: 768px) {
     .contact {
       width: 70%;
       margin: 0 auto;
       font-size: 1.2em; } }
-  @media (min-width: 1024px) {
+  @media screen and (min-width: 1024px) {
     .contact {
       margin-top: 2em;
       padding-top: 2em;
       margin-bottom: 6em; } }
-  @media (min-width: 1024px) {
+  @media screen and (min-width: 1024px) {
     .contact p {
       width: 80%;
       margin: 0 auto;
       font-size: 1.3em;
       line-height: 1.3; } }
-  @media (min-width: 1024px) {
+  @media screen and (min-width: 1024px) {
     .contact-info {
       margin-top: 2em; } }
-  @media (min-width: 1024px) {
+  @media screen and (min-width: 1024px) {
     .contact-info p {
       padding-bottom: 1em; } }
 
@@ -537,12 +537,12 @@ h2 {
   width: 100%;
   margin: 0 auto;
   padding-left: 0; }
-  @media (min-width: 768px) {
+  @media screen and (min-width: 768px) {
     .main-nav {
       flex-direction: row;
       justify-content: center;
       margin-top: -2em; } }
-  @media brk-wide {
+  @media screen and (min-width: 1024px) {
     .main-nav {
       margin-top: 0;
       justify-content: space-between;
@@ -559,11 +559,11 @@ h2 {
     padding-bottom: 1em;
     align-self: center;
     width: 100%; }
-    @media (min-width: 768px) {
+    @media screen and (min-width: 768px) {
       .main-nav a {
         padding-left: 5em;
         padding-right: 5em; } }
-    @media (min-width: 1024px) {
+    @media screen and (min-width: 1024px) {
       .main-nav a {
         padding-left: 0;
         padding-right: 0; } }
@@ -573,11 +573,11 @@ h2 {
 
 .site-logo {
   align-self: center; }
-  @media (min-width: 768px) {
+  @media screen and (min-width: 768px) {
     .site-logo {
       width: 200px;
       padding-top: 1em; } }
-  @media (min-width: 1024px) {
+  @media screen and (min-width: 1024px) {
     .site-logo {
       margin-right: auto;
       width: 50%; } }
@@ -586,7 +586,7 @@ h2 {
   flex-direction: row;
   display: flex;
   flex-direction: column; }
-  @media (min-width: 1024px) {
+  @media screen and (min-width: 1024px) {
     .intro {
       margin-top: 0; } }
   .intro p {
@@ -596,7 +596,7 @@ h2 {
     line-height: 1.4;
     width: 100%;
     margin-top: 2em; }
-    @media (min-width: 768px) {
+    @media screen and (min-width: 768px) {
       .intro p {
         width: 60%;
         text-align: left;
@@ -604,7 +604,7 @@ h2 {
         line-height: 1.4;
         margin-right: auto;
         align-self: flex-start; } }
-    @media (min-width: 1024px) {
+    @media screen and (min-width: 1024px) {
       .intro p {
         width: 55%;
         font-size: 1.5rem;
