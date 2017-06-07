@@ -1,0 +1,11 @@
+@mixin tablet {
+    @media (min-width: #{$brk-narrow}) {
+        @content;
+    }
+}
+
+@mixin desktop {
+    @media (min-width: #{$brk-wide}) {
+        @content;
+    }
+}

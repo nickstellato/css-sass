@@ -20,7 +20,7 @@
   display: flex;
   flex-direction: column;
 
-  @media #{$brk-wide} {
+  @include desktop {
     flex-direction: column;
     justify-content: space-between;
   }
@@ -30,7 +30,7 @@
   display: flex;
   flex-direction: column;
 
-  @media #{$brk-wide} {
+  @include desktop {
     flex-direction: row;
     justify-content: space-between;
   }
@@ -46,18 +46,18 @@
   }
 
   &-link {
-    @media #{$brk-narrow} {
+    @include tablet {
       display: none;
     }
   }
 
   &-nav {
-    @media #{$brk-narrow} {
+    @include tablet {
       display: inline;
     }
 
     li {
-      @media #{$brk-narrow} {
+      @include tablet {
         display: inline;
         padding-left: 1.5em;
         text-transform: uppercase;

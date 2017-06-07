@@ -22,5 +22,5 @@ $stack-helvetica    : 'Helvetica Neue', $stack-sans-serif;
 
 // Media query breakpoints
 
-$brk-narrow : 'screen and (min-width: 768px)';
-$brk-wide   : 'screen and (min-width: 1024px)';
+$brk-narrow : 768px;
+$brk-wide   : 1024px;

@@ -29,13 +29,13 @@ h2 {
   margin: 0 auto;
   padding-left: 0;
 
-  @media #{$brk-narrow} {
+  @include tablet {
     flex-direction: row;
     justify-content: center;
     margin-top: -2em;
   }
 
-  @media #{$brk-wide} {
+  @include desktop {
     margin-top: 0;
     justify-content: space-between;
     width: 40%;
@@ -54,12 +54,12 @@ h2 {
     align-self: center;
     width: 100%;
 
-    @media #{$brk-narrow} {
+    @include tablet {
       padding-left: 5em;
       padding-right: 5em;
     }
 
-    @media #{$brk-wide} {
+    @include desktop {
       padding-left: 0;
       padding-right: 0;
     }
@@ -73,12 +73,12 @@ h2 {
 .site-logo {
   align-self: center;
 
-  @media #{$brk-narrow} {
+  @include tablet {
     width: 200px;
     padding-top: 1em;
   }
 
-  @media #{$brk-wide} {
+  @include desktop {
     margin-right: auto;
     width: 50%;
   }
@@ -89,12 +89,12 @@ h2 {
   display: flex;
   flex-direction: column;
 
-  @media #{$brk-narrow} {
+  @include tablet {
     display: flex;
     flex-direction: row;
   }
 
-  @media #{$brk-wide} {
+  @include desktop {
     margin-top: 0;
     display: flex;
     flex-direction: row;
@@ -108,7 +108,7 @@ h2 {
     width: 50%;
     margin-top: 2em;
 
-    @media #{$brk-narrow} {
+    @include tablet {
       width: 60%;
       text-align: left;
       font-size: 1.2em;
@@ -117,7 +117,7 @@ h2 {
       align-self: flex-start;
     }
 
-    @media #{$brk-wide} {
+    @include desktop {
       width: 55%;
       font-size: 1.5rem;
       line-height: 1.3;
