@@ -2,3 +2,58 @@
   padding-bottom: 2em;
   margin-bottom: 2em;
 }
+
+.site-logo {
+  align-self: center;
+
+  @include tablet {
+    width: 200px;
+    padding-top: 1em;
+  }
+
+  @include desktop {
+    margin-right: auto;
+    width: 50%;
+  }
+}
+
+.intro {
+  flex-direction: row;
+  display: flex;
+  flex-direction: column;
+
+  @include tablet {
+    display: flex;
+    flex-direction: row;
+  }
+
+  @include desktop {
+    margin-top: 0;
+    display: flex;
+    flex-direction: row;
+  }
+
+  p {
+    align-self: center;
+    text-align: center;
+    font-size: 1.25em;
+    line-height: 1.4;
+    width: 50%;
+    margin-top: 2em;
+
+    @include tablet {
+      width: 60%;
+      text-align: left;
+      font-size: 1.2em;
+      line-height: 1.4;
+      margin-right: auto;
+      align-self: flex-start;
+    }
+
+    @include desktop {
+      width: 55%;
+      font-size: 1.5rem;
+      line-height: 1.3;
+    }
+  }
+}
