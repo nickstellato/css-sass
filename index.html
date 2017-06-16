@@ -8,15 +8,15 @@
   </head>
   <body>
     <header class="main-header">
-      <div class="wrapper">
+      <div class="wrapper" id="home">
         <div class="site-header">
-          <a href="#" class="site-logo">
+          <a href="#home" class="site-logo">
             <h1>Nick Stellato</h1>
           </a>
           <ul class="main-nav">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Portfolio</a></li>
-            <li><a href="#">Contact</a></li>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
           </ul>
         </div>  <!-- end .site-header -->
         <div class="intro">
@@ -30,7 +30,7 @@
       </div>  <!-- end .wrapper -->
     </header>
     <div class="portfolio-wrapper">
-      <div class="wrapper">
+      <div class="wrapper" id="portfolio">
         <h2>Portfolio</h2>
         <section class="portfolio">
           <figure class="portfolio-piece">
@@ -146,7 +146,7 @@
     </div>  <!-- end .portfolio-wrapper -->
     <footer class="main-footer">
       <div class="wrapper">
-        <div class="contact">
+        <div class="contact" id="contact">
           <h2>Contact</h2>
           <p class="footer-info">
             If you're interested in chatting or want more information about what I've been working on, I'd love to hear from you!
@@ -163,11 +163,11 @@
         <div class="site-footer">
           <span class="footer-logo">Nick Stellato</span>
           <div class="footer-links">
-            <a class="footer-link">Back to Top</a>
+            <a href="#home" class="footer-link">Back to Top</a>
             <ul class="footer-nav">
-              <li><a href="#">Home</a></li>
-              <li><a href="#">Portfolio</a></li>
-              <li><a href="#">Contact</a></li>
+              <li><a href="#home">Home</a></li>
+              <li><a href="#portfolio">Portfolio</a></li>
+              <li><a href="#contact">Contact</a></li>
             </ul>
           </div>  <!-- end .footer-links -->
         </div>  <!-- end .site-footer -->
