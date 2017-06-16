@@ -67,7 +67,7 @@
   @include tablet {
     width: 70%;
     margin: 0 auto;
-    font-size: 1.2em;
+    font-size: $font-size-normal;
   }
 
   @include desktop {
@@ -80,7 +80,7 @@
     @include desktop {
       width: 80%;
       margin: 0 auto;
-      font-size: 1.3em;
+      font-size: $font-size-medium;
       line-height: 1.3;
     }
   }

@@ -20,6 +20,13 @@ $color-shadow-dark  : lighten($black, 60%);
 $stack-sans-serif   : Helvetica, Arial, sans-serif;
 $stack-helvetica    : 'Helvetica Neue', $stack-sans-serif;
 
+// Font size
+
+$font-size-small    :   .9em;
+$font-size-normal   :  1.1em;
+$font-size-medium   :  1.3em;
+$font-size-large    :  1.5em;
+
 // Media query breakpoints
 
 $brk-narrow : 768px;

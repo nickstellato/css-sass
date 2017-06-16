@@ -16,7 +16,7 @@ h2 {
   padding-top: 1.5em;
   padding-bottom: 1.5em;
   text-transform: uppercase;
-  font-size: 1.1em;
+  font-size: $font-size-normal;
 }
 
 .portfolio-piece {
@@ -24,13 +24,13 @@ h2 {
   
   h3 {
     font-weight: 600;
-    font-size: 1.3em;
+    font-size: $font-size-medium;
     text-align: center;
     line-height: 1.6;
   }
   
   p {
-    font-size: 1.1em;
+    font-size: $font-size-normal;
     width: 90%;
     margin: 1em auto;
     text-align: center;
