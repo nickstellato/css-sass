@@ -18,9 +18,7 @@
 }
 
 .intro {
-  flex-direction: row;
-  display: flex;
-  flex-direction: column;
+  @extend %column;
 
   @include tablet {
     display: flex;

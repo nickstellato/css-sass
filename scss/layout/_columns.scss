@@ -12,13 +12,11 @@
 }
 
 .portfolio {
-  display: flex;
-  flex-direction: column;
+  @extend %column;
 }
 
 .main-header {
-  display: flex;
-  flex-direction: column;
+  @extend %column;
 
   @include desktop {
     flex-direction: column;
@@ -27,8 +25,7 @@
 }
 
 .site-header {
-  display: flex;
-  flex-direction: column;
+  @extend %column;
 
   @include desktop {
     flex-direction: row;
